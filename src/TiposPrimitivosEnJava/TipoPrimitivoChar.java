@@ -1,0 +1,33 @@
+package TiposPrimitivosEnJava;
+
+public class TipoPrimitivoChar {
+    public static void main(String[] args) {
+        char miCaracter = 'a' ;
+        System.out.println("miCaracter = " + miCaracter);
+
+        char varChar = '\u0021';
+        System.out.println("varChar = " + varChar); // tabla unicod donde salen los codigos de var
+
+        char varCharDecimal = 33;
+        System.out.println("varCharDecimal = " + varCharDecimal);
+
+        char varCharSimbolo = '!';
+        System.out.println("varCharSimbolo = " + varCharSimbolo);
+
+        var varChar1 = '\u0021';
+        System.out.println("varChar1 = " + varChar1); // tabla unicod donde salen los codigos de var se puede encontrar en internet
+
+        var varCharDecimal2 = 33;
+        System.out.println("varCharDecimal2 = " + varCharDecimal2);
+
+        var varCharSimbolo3 = '!';
+        System.out.println("varCharSimbolo3 = " + varCharSimbolo3);
+
+        int variableEnteraSimbolo = '!';
+        System.out.println("variableEnteraSimbolo = " + variableEnteraSimbolo);
+        
+        int letra = 'A';
+        System.out.println("letra = " + letra);
+
+    }
+}
